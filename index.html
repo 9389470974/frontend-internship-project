@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Startup Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<header>
+  <h2>MyStartup</h2>
+  <nav>
+    <a href="#features">Features</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+  <h1>Build Your Future with Us</h1>
+  <p>Modern solutions for your business growth.</p>
+  <button onclick="scrollToContact()">Get Started</button>
+</section>
+
+<!-- Features -->
+<section id="features" class="features">
+  <h2>Features</h2>
+  <div class="cards">
+    <div class="card">⚡ Fast Performance</div>
+    <div class="card">🔒 Secure System</div>
+    <div class="card">📱 Mobile Friendly</div>
+  </div>
+</section>
+
+<!-- Pricing -->
+<section id="pricing" class="pricing">
+  <h2>Pricing</h2>
+  <div class="cards">
+    <div class="card">Basic - ₹199/month</div>
+    <div class="card">Pro - ₹499/month</div>
+    <div class="card">Premium - ₹999/month</div>
+  </div>
+</section>
+
+<!-- Contact Form -->
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Your Name">
+    <small class="error"></small>
+
+    <input type="email" id="email" placeholder="Your Email">
+    <small class="error"></small>
+
+    <input type="password" id="password" placeholder="Password">
+    <small class="error"></small>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <p id="successMsg"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
